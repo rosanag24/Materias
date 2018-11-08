@@ -28,4 +28,4 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls), # agregamos la vista de admin
     #path('hello-world/' hello_world)
     url(r'^$', include('posts.urls'))
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]
